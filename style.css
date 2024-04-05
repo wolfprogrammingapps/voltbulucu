@@ -1,0 +1,123 @@
+@import url('https://fonts.cdnfonts.com/css/eacologica-round-slab');
+@import url('https://fonts.cdnfonts.com/css/tonnelier');
+@import url('https://fonts.cdnfonts.com/css/neo-sans-std-tr');
+@import url('https://fonts.cdnfonts.com/css/f-frensya');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #040D12;
+}
+
+.firsth2{
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    letter-spacing: 3px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-family: 'eacologica round slab', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.formDiv{
+    border-radius: 15px;
+    background-color: rgb(73, 124, 152);
+    height: 450px;
+    padding: 60px;
+    width: 900px;
+    transition: 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 0px 0px 67px 6px rgba(20,68,94,1);
+    -moz-box-shadow: 0px 0px 67px 6px rgba(20,68,94,1);
+    box-shadow: 0px 0px 67px 6px rgba(20,68,94,1);
+}
+
+.formDiv:hover{
+    -webkit-box-shadow: 0px 0px 67px -6px rgba(24,114,163,1);
+    -moz-box-shadow: 0px 0px 67px -6px rgba(24,114,163,1);
+    box-shadow: 0px 0px 67px -6px rgba(24,114,163,1);
+    background-color: rgb(64, 127, 160);
+}
+
+.formDiv h2{
+    font-family: 'Tonnelier', sans-serif;
+}
+
+.formDivInside{
+    display: flex;
+    margin-top: -90px;
+}
+
+.formDiv input{
+    display: block;
+    background-color: #101010;
+    border: none;
+    font-family: 'Neo Sans Std TR', sans-serif;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    height: 27px;
+    width: 190px;
+    margin: 30px;
+}
+
+.bn62 {
+    color: #1cc49d;
+    background-color: #1b2f31;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3em;
+    width: 8em;
+    font-size: large;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: -16px;
+}
+.containerButton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sonuc{
+    width: 400px;
+    display: flex;
+    height: 110px;
+    background-color: #fddb8c;
+    position: absolute;   
+    margin-top: 275px;
+    border-radius: 10px;
+    margin-left: -4px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sonuc h2{
+    font-size: 30px;
+}
+
+.sonuc h4{
+    margin-top: 8px;
+    font-size: 27px;
+    font-family: 'f Frensya', sans-serif;
+}
+
+.sonucYazi{
+    color: blue;
+    letter-spacing: 5px;
+}

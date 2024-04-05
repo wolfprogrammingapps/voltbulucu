@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+     rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <h2 class="firsth2">Volt Bulucu</h2>
+    <div class="container">
+        <div class="formDiv">
+            <div class="formDivInside">
+                <table>
+                    <tr>
+                        <th><h2>Amper Girin: </h2></th>
+                        <th><input type="number" id="amperInput"></th>
+                    </tr>
+                    <tr>
+                        <th><h2>Direnç Girin: </h2></th>
+                        <th><input type="number" id="ohmInput"></th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th><button href="/buttons/62" class="bn62" onclick="voltHesapla()">Hesapla !</button></th>
+                    </tr>
+                </table>
+
+                <div class="sonuc">
+                    <h2>Sonuç:</h2>
+                    <h4 id="sonuc">? Volt</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
